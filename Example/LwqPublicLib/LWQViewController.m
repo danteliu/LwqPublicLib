@@ -18,6 +18,14 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    LWQRandomView *view=[[LWQRandomView alloc]init];
+    view.addTo(self.view);
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.offset(0);
+        make.centerY.offset(0);
+        make.height.mas_equalTo(50);
+    }];
+    
 }
 
 - (void)didReceiveMemoryWarning

@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - LwqPublicLib (0.1.0):
+  - LwqPublicLib (0.1.1):
     - AFNetworking (~> 4.0.1)
     - Masonry (~> 1.1.0)
     - MJExtension (~> 3.2.4)
@@ -48,7 +48,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  LwqPublicLib: 3c9705ea01080ae91c5c52799c3d466c51af293d
+  LwqPublicLib: 8b4ffabd1afa17d8e853f946ed8a36bf09f8132e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   NerdyUI: ae4506046b544a5cdc0873a58c1ece61b29631d0

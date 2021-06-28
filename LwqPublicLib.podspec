@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'LwqPublicLib'
-s.version          = '0.1.0'
+s.version          = '0.1.1'
 s.summary          = 'A short description of LwqPublicLib.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ s.description      = <<-DESC
 TODO: Add long description of the pod here.
 DESC
 
-s.homepage         = 'https://github.com/1849245841@qq.com/LwqPublicLib'
+s.homepage         = 'https://github.com/danteliu/LwqPublicLib'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { '1849245841@qq.com' => '1849245841@qq.com' }
-s.source           = { :git => 'https://github.com/1849245841@qq.com/LwqPublicLib.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/danteliu/LwqPublicLib.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 s.ios.deployment_target = '9.0'

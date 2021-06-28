@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "LWQRandomView.h"
 
 FOUNDATION_EXPORT double LwqPublicLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char LwqPublicLibVersionString[];
