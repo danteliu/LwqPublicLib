@@ -1,0 +1,58 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - LwqPublicLib (0.1.0):
+    - AFNetworking (~> 4.0.1)
+    - Masonry (~> 1.1.0)
+    - MJExtension (~> 3.2.4)
+    - NerdyUI (~> 1.2.1)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.4)
+  - NerdyUI (1.2.1):
+    - NerdyUI/Chainable (= 1.2.1)
+    - NerdyUI/Private (= 1.2.1)
+    - NerdyUI/Public (= 1.2.1)
+  - NerdyUI/Chainable (1.2.1):
+    - NerdyUI/Private
+    - NerdyUI/Public
+  - NerdyUI/Private (1.2.1)
+  - NerdyUI/Public (1.2.1):
+    - NerdyUI/Private
+
+DEPENDENCIES:
+  - LwqPublicLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Masonry
+    - MJExtension
+    - NerdyUI
+
+EXTERNAL SOURCES:
+  LwqPublicLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  LwqPublicLib: 3c9705ea01080ae91c5c52799c3d466c51af293d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
+  NerdyUI: ae4506046b544a5cdc0873a58c1ece61b29631d0
+
+PODFILE CHECKSUM: 0cbb704ef7b8cac44ec2cd1c8678a346c6febde4
+
+COCOAPODS: 1.10.1

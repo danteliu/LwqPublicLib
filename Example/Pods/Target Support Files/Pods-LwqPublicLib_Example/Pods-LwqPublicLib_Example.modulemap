@@ -1,0 +1,6 @@
+framework module Pods_LwqPublicLib_Example {
+  umbrella header "Pods-LwqPublicLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

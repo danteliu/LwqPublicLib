@@ -1,0 +1,6 @@
+framework module LwqPublicLib {
+  umbrella header "LwqPublicLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
