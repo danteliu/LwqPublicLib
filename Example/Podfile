@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LwqPublicLib_Example' do
+  pod 'LwqPublicLib', :path => '../'
+
+  target 'LwqPublicLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
