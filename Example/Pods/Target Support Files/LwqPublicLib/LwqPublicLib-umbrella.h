@@ -10,7 +10,9 @@
 #endif
 #endif
 
+#import "Header.h"
 #import "LWQRandomView.h"
+#import "UIView+addLine.h"
 
 FOUNDATION_EXPORT double LwqPublicLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char LwqPublicLibVersionString[];

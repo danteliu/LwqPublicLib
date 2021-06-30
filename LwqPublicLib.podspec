@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
 s.name             = 'LwqPublicLib'
-s.version          = '0.2.0'
-s.summary          = 'A short desc第二个版本'
+s.version          = '0.2.2'
+s.summary          = '添加头文件和快捷创建UI'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ s.summary          = 'A short desc第二个版本'
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
 s.description      = <<-DESC
-TODO: A short desc第二个版本 ++
+TODO: 添加头文件和快捷创建UI 2021年06月30日
 DESC
 
 s.homepage         = 'https://github.com/danteliu/LwqPublicLib'
@@ -39,7 +39,6 @@ s.source_files = 'LwqPublicLib/**/*.{h,m}'
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 # s.frameworks = 'UIKit', 'MapKit'
-# s.dependency 'AFNetworking', '~> 2.3'
 s.dependency 'AFNetworking', '~> 4.0.1'
 s.dependency 'Masonry', '~> 1.1.0'
 s.dependency 'MJExtension', '~> 3.2.4'
